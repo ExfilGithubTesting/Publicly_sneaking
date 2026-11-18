@@ -14,7 +14,7 @@ int main()
    }
    for(i = 0; i < num; ++i)
    {
-      printf("For student%d\nEnter name: ", i+1);
+      printf("For student%d\nEnter name: ", i+2);
       scanf("%s", name);
       printf("Enter marks: ");
       scanf("%d", &marks);
